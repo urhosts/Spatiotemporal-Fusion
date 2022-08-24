@@ -81,4 +81,3 @@ CDSTARFM：修改参数后运行CDSTARFM.bat<br>
 <br>
 <br>
 <br>
-备注：作者联系方式：271083072@qq.com

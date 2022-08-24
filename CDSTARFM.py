@@ -1,8 +1,6 @@
 '''
-2018.6.10
 version 1.0
 CDSTARFM时空数据融合GPU并行加速程序
-作者：西南交通大学地球科学与环境工程学院陈凯
 '''
 
 import gdal
@@ -1674,13 +1672,3 @@ time2 = time.time()
 batch = False
 fusion.fusion(args.landsat_t1_path,args.classimage_path,args.MRT_save_path,modis_path_list,args.save_path,args.java_path,args.MRT_path,args.zhouqi,args.landsat_resolusion,args.modis_resolusion,args.landsat_ID,args.block_size,batch)
 print('融合所用时间：%0.2f'%(time.time()-time2))
-
-
-
-
-
-
-
-
-
-    
